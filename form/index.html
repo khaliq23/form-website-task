@@ -1,0 +1,87 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon"  href="react-1-logo-png-transparent.png">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</div>
+<title>Course Project</title>
+<link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="search-bar">
+            <span class="left-text">LearnHub</span>
+             <input type="text" id="" placeholder="" /> 
+            <span class="right-text">Admin</span>
+        </div>
+    </header>
+    
+    
+    <h2>Fill This Form</h2>
+    <form id="entryForm">
+        <div class="form-row">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="role">Role:</label>
+                <input type="text" id="role" placeholder="Enter your role" required>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <select id="course">
+                    <option value="Select a course">Select a course</option>
+                    <option value="back end  Development">Back endDevelopment</option>
+                    <option value="UI/UX Design">UI/UX Design</option>
+                    <option value="Advanced Css">Advanced Css</option>
+                    <option value="React basic">React basic</option>
+                    <option value="Java Script basic">Java Script basic</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="status">Status:</label>
+                <select id="status">
+                    <option value="Unplaced">Unplaced</option>
+                    <option value="Placed">Placed</option>
+                </select>
+            </div>
+        
+        </div>
+        <form action="#">
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+       
+
+
+    <!-- <h2>Submitted Entries</h2>  -->
+    <div id="cards"></div>
+
+    <script src="script.js"></script>
+        <footer>
+            <p>© 2022 Tailwind Labs Inc. All rights reserved.</p>
+            <nav>
+                <a href="#">Form</a> | <a href="#">Notes</a>
+            </nav>
+        </footer>
+</body>
+</html> 
+
+

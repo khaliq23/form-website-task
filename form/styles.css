@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #ccee00;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 40%;
+    background: transparent;
+    border: 2px solid #ccee00;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+/* Header Styling */
+/* .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    background: black;
+    border-bottom: 2px solid #ccee00;
+}
+
+/* Centered Search Bar */
+/* .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%; /* Wider search bar */
+    /* background: transparent;
+    border: 2px solid #ccee00;
+    border-radius: 30px;
+    padding: 10px 20px;
+}  */
+
+/* Left and Right Text Inside Search Bar */
+.left-text, .right-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ccee00;
+}
+
+/* Search Input */
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ccee00;
+    text-align: center;
+}
+
+header {
+    background: #111;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 3px solid #ccee00;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 48%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+admin-btn {
+    background: black;
+    color: #c4ff00;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    font-size: 18px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+  
+/* Small Rounded Submit Button */
+.submit-btn {
+    position: fixed; 
+    bottom: 100px;
+    right: 10px;
+    margin-left: 1000px;
+     background: black;
+    color: white; 
+    font-size: 20px;
+    padding: 10px 30px;
+     border-radius: 30%; 
+    /* border: 2px solid white; */
+    /* cursor: pointer; */
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn:hover {
+    background: black;
+    color: white;
+} */
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Card Design */
+.card {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+     background-color: white;
+    text-align: left;
+     justify-content: center;
+    position: relative;
+    text-align:center;
+    flex-direction: column;
+}
+
+.card-content {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+/* Delete Button */
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 5px;
+} 
+footer {
+    position: fixed;
+     margin-bottom: 20px; 
+    right :10px;
+    bottom: 10px;
+    text-align: center;
+    left:10px;
+}
+
+footer p, footer a {
+    color: white;
+    font-size: 14px;
+}
